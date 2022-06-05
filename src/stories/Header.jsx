@@ -1,8 +1,7 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-
-import { Button } from './Button';
 import './header.css';
+import React from 'react';
+import {Button} from './Button';
+import PropTypes from 'prop-types';
 
 export const Header = ({ user, onLogin, onLogout, onCreateAccount }) => (
   <header>
