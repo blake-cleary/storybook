@@ -1,6 +1,6 @@
 import './page.css';
 import React from 'react';
-import {Header} from './Header';
+import {Header} from '../Header/Header';
 
 export const Page = () => {
   const [user, setUser] = React.useState();
@@ -9,9 +9,9 @@ export const Page = () => {
     <article>
       <Header
         user={user}
-        onLogin={() => setUser({ name: 'Jane Doe' })}
+        onLogin={() => setUser({ name: 'Blake Cleary' })}
         onLogout={() => setUser(undefined)}
-        onCreateAccount={() => setUser({ name: 'Jane Doe' })}
+        onCreateAccount={() => setUser({ name: 'Blake Cleary' })}
       />
 
       <section>
