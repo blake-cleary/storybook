@@ -6,6 +6,7 @@ export default {
   component: Button,
   argTypes: {
     backgroundColor: { control: 'color' },
+    color: { control: 'color' },
   },
 };
 
@@ -16,21 +17,32 @@ export const Primary = Template.bind({});
 Primary.args = {
   primary: true,
   label: 'Button',
+  shape: 'circle',
 };
 
 export const Secondary = Template.bind({});
 Secondary.args = {
   label: 'Button',
+  shape: 'circle',
 };
 
 export const Large = Template.bind({});
 Large.args = {
   size: 'large',
   label: 'Button',
+  shape: 'circle',
 };
 
 export const Small = Template.bind({});
 Small.args = {
   size: 'small',
   label: 'Button',
+  shape: 'circle',
+};
+
+export const Squared = Template.bind({});
+Squared.args = {
+  size: 'small',
+  label: 'Button',
+  shape: 'squared',
 };
