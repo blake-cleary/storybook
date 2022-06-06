@@ -1,12 +1,12 @@
 import React from "react";
-import {TextBox} from "./TextBox";
+import {Textbox} from "./Textbox";
 
 export default {
-    title: 'Example/TextBox',
-    component: TextBox,
+    title: 'Example/Textbox',
+    component: Textbox,
 };
 
-const Template = (args) => <TextBox {...args} />;
+const Template = (args) => <Textbox {...args} />;
 
 export const No_Label = Template.bind({});
 No_Label.args = {

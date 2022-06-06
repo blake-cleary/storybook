@@ -1,8 +1,8 @@
-import './textBox.css'
+import './textbox.css'
 import React from "react";
 import PropTypes from 'prop-types';
 
-export const TextBox = ({label, width, ...props}) => {
+export const Textbox = ({label, width, ...props}) => {
     return (
         <>
             <div className={['column']}>
@@ -13,12 +13,12 @@ export const TextBox = ({label, width, ...props}) => {
     );
 };
 
-TextBox.propTypes = {
+Textbox.propTypes = {
     label: PropTypes.string,
     width: PropTypes.string,
 };
 
-TextBox.defaultProps = {
+Textbox.defaultProps = {
     label: '',
     width: '100px',
 };
